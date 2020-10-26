@@ -1,0 +1,28 @@
+$bg__blend--lighten: lighten;
+$bg__classes:
+    "error",
+    "comingsoon",
+    "privacy";
+$bg__comingsoon-img: "../img/brush.jpg";
+$bg__error-img: "../img/error.jpg";
+$bg__privacy-img: "../img/privacy.jpg";
+$bg__aoa:
+    $bg__error-img,
+    $bg__comingsoon-img,
+    $bg__privacy-img;
+$body__min-height: 100%;
+$color__bg-1: #0d0d0d;
+$color__shadow: #000;
+$color__container-bg: #fff;
+$font-logo__family: 'Oswald';
+$font-logo__size: 24px;
+$font-main__family: 'Oswald';
+$font-main__size: 16px;
+$header__height: 78px;
+$section__min-height: 100vh;
+$text__shadow: 1px 1px 4px $color__shadow;
+$theme-colors: (
+  "primary": #121212,
+  "secondary": #ffffff,
+  "info": #E56543
+);
