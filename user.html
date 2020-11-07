@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>Decoratoria | Login</title>
+</head>
+<body class="text-shadow bg-secondary">
+    <header class="container-fluid px-0 border-bottom border-dark">
+        <nav class="navbar navbar-expand-md nabvar-dark bg-secondary">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/navbar_logo.png" alt="logo"/>
+                <span class="navbar-text font-logo font-weight-bold text-info text-uppercase">
+                    Decoratoria
+                </span>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav font-menu text-uppercase w-100">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a href="user.html" class="nav-link">
+                            <span class="fa fa-user-o"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="user-s1 container-fluid p-0 bg-secondary minh-25vh py-5 d-flex align-items-center">
+            <div class="row w-100 mx-0 text-white">
+                <div class="col-12 col-md-6 px-3 px-md-5">
+                    <span class="border-info w-25 d-block border-bold-bottom p-1 mx-auto ml-md-0"></span>
+                    <h3 class="display-4 text-center text-md-left">
+                        Registered already?
+                    </h3>
+                </div>
+                <div class="col-12 col-md-6 py-3 px-3 px-md-5 text-center text-md-left">
+                    <p class="lead">
+                        Login and get access to our special offer prepared individually
+                        for you!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="user-s2 container-fluid d-flex align-items-center justify-content-center py-5 bg-dark minh-75vh">
+            <div class="row w-100 text-shadow-none" id="login-form">
+                <div class="col-10 col-sm-6 col-md-5 col-lg-4 card mx-auto p-0 text-gray shadow shadow-lg border border-info">
+                    <div class="card-header bg-info text-white font-weight-bold">
+                        <span class="fa fa-sign-in"></span>
+                        Login
+                    </div>
+                    <div class="card-body">
+                        <form class="px-1 px-md-3" autocomplete="off">
+                            <label class="text-info font-weight-bold">
+                                <span class="fa fa-user-o mr-1"></span>
+                                Login
+                            </label>
+                            <input type="text" 
+                                class="form-control line-box rounded-0 mb-3 text-info" 
+                                maxlength="80"
+                                name="fname"
+                                placeholder="Full name"
+                                tabindex="1">
+                            <label class="text-info font-weight-bold">
+                                <span class="fa fa-user-secret mr-1"></span>
+                                Password
+                            </label>
+                            <input type="password" 
+                                class="form-control line-box rounded-0 mb-3 text-info" 
+                                maxlength="60"
+                                name="password"
+                                placeholder="Enter password"
+                                tabindex="2">
+                            <div class="w-100 text-right mt-3">
+                                <input type="reset"                                 
+                                    class="btn btn-outline-info" 
+                                    value="Clear"
+                                    tabindex="4">
+                                <input type="submit" 
+                                    class="btn btn-outline-info" 
+                                    value="Login"
+                                    tabindex="3">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </main>
+    <footer class="container-fluid bg-secondary text-center text-white p-3 border-top border-dark">
+        <small class="my-0">
+            Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
+            <a class="text-white" href="privacy.html">Privacy policy</a>
+        </small>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

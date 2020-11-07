@@ -1,28 +1,49 @@
-$bg__blend--lighten: lighten;
+$bg__blend--lighten: multiply;
 $bg__classes:
     "error",
     "comingsoon",
-    "privacy";
+    "privacy",
+    "index-sub",
+    "index",
+    "contact-sub";
 $bg__comingsoon-img: "../img/brush.jpg";
+$bg__contact-img:
+    "../img/building.jpg";
 $bg__error-img: "../img/error.jpg";
+$bg__index-img:
+    "",
+    "",
+    "",
+    "../img/lines.png",
+    "../img/map.jpg";
+$bg__index-sub-img: "../img/index/project.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
 $bg__aoa:
     $bg__error-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__privacy-img,
+    $bg__index-sub-img,
+    $bg__index-img,
+    $bg__contact-img;
 $body__min-height: 100%;
+$border-bold: 4px solid;
+$border__bottom--border: 1px solid #E56543;
 $color__bg-1: #0d0d0d;
 $color__shadow: #000;
 $color__container-bg: #fff;
+$color__placeholder: lighten(#E56543,20%);
 $font-logo__family: 'Oswald';
 $font-logo__size: 24px;
 $font-main__family: 'Oswald';
 $font-main__size: 16px;
-$header__height: 78px;
+$header__height: 82px;
+$hover-filter: sepia(1);
+$icon-big__size: 36px;
 $section__min-height: 100vh;
 $text__shadow: 1px 1px 4px $color__shadow;
 $theme-colors: (
-  "primary": #121212,
-  "secondary": #ffffff,
-  "info": #E56543
+  "primary": #ffffff,
+  "secondary": #121212,
+  "info": #E56543,
+  "gray":#666
 );
