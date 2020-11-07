@@ -5,33 +5,264 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Decoratoria | Coming soon</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>Decoratoria | Top quality interior design</title>
 </head>
-<body class="text-shadow">
+<body class="text-shadow bg-secondary">
     <header class="container-fluid px-0 border-bottom border-dark">
-        <nav class="navbar navbar-expand-md nabvar-dark bg-primary">
+        <nav class="navbar navbar-expand-md nabvar-dark bg-secondary">
             <a href="index.html" class="navbar-brand">
                 <img src="img/navbar_logo.png" alt="logo"/>
                 <span class="navbar-text font-logo font-weight-bold text-info text-uppercase">
                     Decoratoria
                 </span>
             </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav font-menu text-uppercase w-100">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a href="user.html" class="nav-link">
+                            <span class="fa fa-user-o"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="comingsoon-s1 align-items-center d-flex">
-            <div class="row justify-content-center mx-0 w-100">
-                <div class="col-10 col-sm-6 text-center text-secondary">
-                    <h1 class=" display-4 font-weight-bold text-info">Coming soon...</h1>
-                    <p class="lead text-white">
-                        We are not ready yet, however we are staring soon.<br> 
-                        Please visit us again in a while.
+        <section class="index-s1 container-fluid p-0 bg-secondary">
+            <div class="row w-100 mx-0">
+                <div class="col-12 p-0">
+                    <div class="carousel slide" data-ride="car ousel" id="index-crs-top">
+                        <ol class="carousel-indicators">
+                            <li data-target="#index-crs-top" data-slide-to="0" class="active"></li>
+                            <li data-target="#index-crs-top" data-slide-to="1"></li>
+                            <li data-target="#index-crs-top" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item bg-dark active">
+                                <img src="img/index/crs-top/slide-1.jpg" 
+                                    alt="slide"
+                                    class="img-htop">
+                                <div class="carousel-caption">
+                                    <h4 class="display-4">Complex design</h4>
+                                    <a href="projects.html#complex-design" class="btn btn-outline-info">
+                                        View Projects
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item bg-dark">
+                                <img src="img/index/crs-top/slide-2.jpg" 
+                                    alt="slide"
+                                    class="img-htop">
+                                <div class="carousel-caption">
+                                    <h4 class="display-4">Creative projects</h4>
+                                    <a href="projects.html#creative-projects" class="btn btn-outline-info">
+                                        View Projects
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item bg-dark">
+                                <img src="img/index/crs-top/slide-3.jpg" 
+                                    alt="slide"
+                                    class="img-htop">
+                                <div class="carousel-caption">
+                                    <h4 class="display-4">Hygge design</h4>
+                                    <a href="projects.html#hygge-design" class="btn btn-outline-info">
+                                        View Projects
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#index-crs-top" 
+                            class="carousel-control-prev" 
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#index-crs-top" 
+                            class="carousel-control-next" 
+                            data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="index-s2 container-fluid p-0 bg-secondary minh-25vh py-5">
+            <div class="row w-100 mx-0 text-white">
+                <div class="col-12 col-md-6 px-3 px-md-5">
+                    <span class="border-info w-25 d-block border-bold-bottom p-1 mx-auto ml-md-0"></span>
+                    <h3 class="display-4 text-center text-md-left">
+                        FEATURED RUNNING PROJECT
+                    </h3>
+                </div>
+                <div class="col-12 col-md-6 py-3 px-3 px-md-5 text-center text-md-left">
+                    <p class="lead">
+                        We offer wide range of ready to use projects. We also prepare individual
+                        projects adjusted to customers needs.
                     </p>
+                    <a href="projects.html" class="btn btn-lg btn-outline-info my-3">
+                        View Projects
+                    </a>
+                </div>
+                <div class="col-12 py-5 px-3">
+                    <div class="carousel slide" data-ride="car ousel" id="index-crs-projects">
+                        <div class="carousel-inner pl-4">
+                            <div class="carousel-item row active">
+                                <div class="col-12 col-sm-4 float-left mb-3 px-5 px-sm-2">
+                                    <img class="card-img-top fh-25vh fit-cover" 
+                                        src="img/projects/project-thumb-1.jpg" 
+                                        alt="project slide">
+                                    <div class="card-footer bg-dark">
+                                        Recreation Area
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 float-left mb-3 px-5 px-sm-2">
+                                    <img class="card-img-top fh-25vh fit-cover" 
+                                        src="img/projects/project-thumb-2.jpg" 
+                                        alt="project slide">
+                                    <div class="card-footer bg-dark">
+                                        Conferece Center
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 float-left mb-3 px-5 px-sm-2">
+                                    <img class="card-img-top fh-25vh fit-cover" 
+                                        src="img/projects/project-thumb-3.jpg" 
+                                        alt="project slide">
+                                    <div class="card-footer bg-dark">
+                                        Open Space
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item row">
+                                <div class="col-12 col-sm-4 float-left mb-3 px-5 px-sm-2">
+                                    <img class="card-img-top fh-25vh fit-cover" 
+                                        src="img/projects/project-thumb-4.jpg" 
+                                        alt="project slide">
+                                    <div class="card-footer bg-dark">
+                                        Law Agency
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 float-left mb-3 px-5 px-sm-2">
+                                    <img class="card-img-top fh-25vh fit-cover" 
+                                        src="img/projects/project-thumb-5.jpg" 
+                                        alt="project slide">
+                                    <div class="card-footer bg-dark">
+                                        Presentation Space
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 float-left mb-3 px-5 px-sm-2">
+                                    <img class="card-img-top fh-25vh fit-cover" 
+                                        src="img/projects/project-thumb-6.jpg" 
+                                        alt="project slide">
+                                    <div class="card-footer bg-dark">
+                                        Waiting Room
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#index-crs-projects" 
+                            class="carousel-control-prev w-20px" 
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#index-crs-projects" 
+                            class="carousel-control-next w-20px" 
+                            data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="index-s3 container-fluid p-0 bg-dark minh-25vh">            
+            <div class="row w-100 mx-0 text-white">
+                <div class="col-12 col-md-6 py-3 text-center text-md-left minh-25vh index-sub-s1">
+                </div>
+                <div class="col-12 col-md-6 px-3 px-md-5 text-center text-md-left py-5 py-md-1">
+                    <span class="border-info w-25 d-block border-bold-bottom p-1 mx-auto ml-md-0"></span>
+                    <h3 class="display-4 text-center text-md-left">
+                        BEST SERVICES YOU CAN ASK FOR
+                    </h3>
+                    <p class="lead">
+                        Customer satifaction and highest quality of our services, are our primary
+                        objectives in our mission to deliver best possible experience for our customers.
+                    </p>
+                    <a href="services.html" class="btn btn-lg btn-outline-info my-3">
+                        View Services
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="index-s4 container-fluid p-0 bg-secondary minh-50vh align-items-center justify-content-center d-flex">            
+            <div class="row w-75 mx-auto py-5 text-info text-center">
+                <div class="col-12 col-sm-6 col-md-3 col-md-3 card text-shadow-none rounded-0 p-4 border border-info hover-filter">
+                    <span class="fa fa-picture-o icon-big"></span>
+                    <p class="initialism mt-3">
+                        Art &amp; Design
+                    </p>
+                    <a href="services.html#art-design" class="stretched-link"></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 card text-shadow-none rounded-0 p-4 border border-info hover-filter">
+                    <span class="fa fa-cube icon-big"></span>
+                    <p class="initialism mt-3">
+                        Furniture Design
+                    </p>
+                    <a href="services.html#furniture-design" class="stretched-link"></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 card text-shadow-none rounded-0 p-4 border border-info hover-filter">
+                    <span class="fa fa-linode icon-big"></span>
+                    <p class="initialism mt-3">
+                        Space Management
+                    </p>
+                    <a href="services.html#space-management" class="stretched-link"></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 card text-shadow-none rounded-0 p-4 border border-info hover-filter">
+                    <span class="fa fa-lightbulb-o icon-big"></span>
+                    <p class="initialism mt-3">
+                        Lighting Design
+                    </p>
+                    <a href="services.html#lighting-design" class="stretched-link"></a>
+                </div>
+            </div>
+        </section>
+        <section class="index-s5 container-fluid p-0 bg-secondary minh-25vh">            
+            <div class="row w-100 mx-auto text-center text-md-left">
+                <div class="col-8 col-sm-6 col-md-4 mx-auto mx-sm-0 bg-dark minh-25vh text-white py-3">
+                    <span class="border-info w-25 d-block border-bold-bottom p-1 mx-auto ml-md-0"></span>
+                    <h3>
+                        Contact us
+                    </h3>
+                    <ul class="list-unstyled mt-4 pl-md-4 ">
+                        <li class="mb-2">Heaven Ave. 17, NY</li>
+                        <li class="mb-2">+(01) 930 452 234</li>
+                        <li class="mb-2">ofice&#64;decoratoria.dc</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-lg btn-outline-info my-3 ml-md-4 ">
+                        Contact us
+                    </a>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="container-fluid bg-primary text-center text-white p-3 border-top border-dark">
+    <footer class="container-fluid bg-secondary text-center text-white p-3 border-top border-dark">
         <small class="my-0">
             Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
             <a class="text-white" href="privacy.html">Privacy policy</a>
