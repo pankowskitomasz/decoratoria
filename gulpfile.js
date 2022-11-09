@@ -4,7 +4,10 @@ const uglify = require("gulp-uglify");
 const minify = require("gulp-minify-css")
 
 function js(){
-    return src(["js/main.js"])
+    return src([
+        "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    ])
     .pipe(concat("main.min.js"))
     .pipe(uglify())
     .pipe(dest("js/"));
